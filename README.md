@@ -22,7 +22,7 @@ Desktop preview
 
 Mobile preview
 
-<img src="./src/screenshots/Mobile.png" height="600" />
+<img src="./src/screenshots/Mobile.png" height="900" />
 
 ## My process
 
