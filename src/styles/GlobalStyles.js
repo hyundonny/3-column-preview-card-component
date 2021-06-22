@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     --darker-cyan: hsl(179, 100%, 13%);
     --transparent-white: hsla(0, 0%, 100%, 0.75);
     --light-gray: hsl(0, 0%, 95%);
-
+    
     font-size: 15px;
   }
 
@@ -20,12 +20,19 @@ const GlobalStyle = createGlobalStyle`
   }
 
   html {
-    height: 100%;
 	  box-sizing: border-box;
+    height: 100%;
   }
 
   body {
     padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 1440px) {
+      height:100%;
+    }
   }
 `;
 

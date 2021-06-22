@@ -6,7 +6,7 @@ const Card = ({ type }) => {
   const content = contents[type];
   return (
     <StyledCard bgColor={content.bgColor}>
-      <div className="card__logo">
+      <div>
         <img src={content.logo} />
       </div>
       <h3 className="card__title">{type}</h3>

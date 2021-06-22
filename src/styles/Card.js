@@ -10,9 +10,6 @@ export const StyledCard = styled.div`
     margin-bottom: 2.25rem;
   }
 
-  .card__logo {
-  }
-
   .card__title {
     text-transform: uppercase;
     color: var(--light-gray);
@@ -44,6 +41,15 @@ export const StyledCard = styled.div`
     &:hover {
       color: var(--light-gray);
       background-color: ${(props) => `var(--${props.bgColor})`};
+    }
+  }
+
+  @media (min-width: 1440px) {
+    width: 33%;
+    padding: 5rem 5.25rem;
+
+    .card__body {
+      margin-bottom: 5rem;
     }
   }
 `;
