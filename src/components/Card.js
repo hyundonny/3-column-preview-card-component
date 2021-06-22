@@ -1,11 +1,20 @@
 import React from "react";
-import CardWrapper from "../styles/Card";
+import StyledCard from "../styles/Card";
+import contents from "../assets/Contents";
 
-const Card = () => {
+const Card = ({ type }) => {
+  const content = contents[type];
   return (
-    <CardWrapper>
-      <div>Card Component</div>
-    </CardWrapper>
+    <StyledCard bgColor={content.bgColor}>
+      <div className="card__logo">
+        <img src={content.logo} />
+      </div>
+      <h3 className="card__title">{type}</h3>
+      <p className="card__body">{content.body}</p>
+      <button className="card__button" type="button">
+        Learn More
+      </button>
+    </StyledCard>
   );
 };
 

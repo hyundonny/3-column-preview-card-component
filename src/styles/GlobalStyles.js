@@ -23,6 +23,10 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
 	  box-sizing: border-box;
   }
+
+  body {
+    padding: 4rem 0;
+  }
 `;
 
 export default GlobalStyle;

@@ -7,9 +7,9 @@ function App() {
     <>
       <GlobalStyle />
       <CardContainer>
-        <Card />
-        <Card />
-        <Card />
+        <Card type={"sedans"} bgColor={"orange"} />
+        <Card type={"suvs"} bgColor={"dark-cyan"} />
+        <Card type={"luxury"} bgColor={"darker-cyan"} />
       </CardContainer>
     </>
   );
