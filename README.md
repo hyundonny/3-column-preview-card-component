@@ -45,5 +45,5 @@ Still a little unsure about how to use Styled Components. The way I use it curre
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Hyun Don Moon](https://velog.io/@hyundonny)
+- Frontend Mentor - [@hyundonny](https://www.frontendmentor.io/profile/hyundonny)
