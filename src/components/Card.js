@@ -7,7 +7,7 @@ const Card = ({ type }) => {
   return (
     <StyledCard bgColor={content.bgColor}>
       <div>
-        <img src={content.logo} />
+        <img src={content.logo} alt={`logo of car`} />
       </div>
       <h3 className="card__title">{type}</h3>
       <p className="card__body">{content.body}</p>
